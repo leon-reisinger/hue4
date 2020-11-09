@@ -15,6 +15,6 @@ public class Main {
     public static void main(String[] args) {
         DividerCheck dc = new DividerCheck();
         ArrayList <Integer> numbers = dc.readFile("numbers.csv");
-        System.out.println("Test: ");
+        System.out.println("Test: " + numbers);
     }
 }
